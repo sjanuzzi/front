@@ -1,0 +1,167 @@
+.icon-edit{
+    height: 22px;
+    cursor: pointer;
+}
+
+.float-right{
+    float: right !important;
+    margin-right: -12px;
+}
+
+.td-acao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+}
+
+.th-acao{
+    width: 40px !important;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+table{
+    font-size: 13px;
+}
+
+
+/* FILTRO */
+.texto{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.margin-right-zero{
+    margin-right: 0px;
+}
+h6{
+    color: #000;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+label{
+    color: #000;
+}
+.margin-laterais{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#filtro {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: #fff;
+    transition: all 0.3s;
+    box-shadow: 1px 0px 10px 1px #aaaaaa;
+
+}
+
+#filtro.active {
+    right: 0;
+}
+
+#dismissFiltro {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #666;
+    color: #000;
+    background-color: #FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: 9999;
+}
+
+#dismissFiltro:hover {
+    background: #ececec;
+    color: #000;
+}
+
+
+#filtro .filtro-header {
+    padding: 20px;
+    background: #d8d8d8;
+}
+
+#filtro ul.components {
+    padding: 20px 0;
+}
+
+#filtro ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#filtro ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#filtro ul li a:hover {
+    color: #000;
+    background: #d8d8d8;
+}
+
+#filtro ul li.active>a, a[aria-expanded="true"] {
+    color: #000;
+    background: #d8d8d8;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #d8d8d8;
+    color: #000;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.filtro-header img {
+    height: 42px;
+}
+
+
+@media (max-width: 1024px) {
+    .container-fluid {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
