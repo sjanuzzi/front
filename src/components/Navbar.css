@@ -1,14 +1,14 @@
 .navbar {
   background-color: #003b87;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
 .menu-bars {
-  margin-left: 2rem;
-  font-size: 2rem;
+  margin-left: 1rem;
+  font-size: 1rem;
   background: none;
 }
 
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 8px 0px 8px 16px;
+  padding: 8px 0px 8px 8px;
   list-style: none;
   height: 60px;
 }
@@ -41,13 +41,13 @@
 .nav-text a {
   text-decoration: none;
   color: #f5f5f5;
-  font-size: 18px;
-  width: 95%;
+  font-size: 16px;
+  width: 65%;
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 16px;
-  border-radius: 4px;
+  padding: 0 8px;
+  border-radius: 2px;
 }
 
 .nav-text a:hover {
@@ -61,12 +61,12 @@
 .navbar-toggle {
   background-color: #003b87;
   width: 100%;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
 span {
-  margin-left: 16px;
+  margin-left: 8px;
 }

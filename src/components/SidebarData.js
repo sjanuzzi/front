@@ -2,15 +2,14 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
-import * as IoDocs from 'react-icons/hi';
-import * as Iophoto from 'react-icons/md';
-import * as IoIm from 'react-icons/im';
-import * as Iogr from 'react-icons/gr';
+import * as HiIcons from 'react-icons/hi';
+import * as MdIcons from 'react-icons/md';
+import * as ImIcons from 'react-icons/im';
 
 export const SidebarData = [
   {
     title: 'Home',
-    path: '/',
+    path: '/home',
     icon: <AiIcons.AiFillHome />,
     cName: 'nav-text'
   },
@@ -22,20 +21,20 @@ export const SidebarData = [
   },
   {
     title: 'Documentos',
-    path: '/documentos',
-    icon: <IoDocs.HiOutlineDocument />,
+    path: '/documento',
+    icon: <HiIcons.HiOutlineDocument />,
     cName: 'nav-text'
   },
   {
     title: 'Fotos',
-    path: '/fotos',
-    icon: <Iophoto.MdPhoto />,
+    path: '/foto',
+    icon: <MdIcons.MdPhoto />,
     cName: 'nav-text'
   },
   {
     title: 'Comercial',
     path: '/comercial',
-    icon: <Iophoto.MdBusinessCenter />,
+    icon: <MdIcons.MdBusinessCenter />,
     cName: 'nav-text'
   },
   {
@@ -43,24 +42,23 @@ export const SidebarData = [
     path: '/financeiro',
     icon: <FaIcons.FaRegMoneyBillAlt />,
     cName: 'nav-text'
-  }
-  ,
+  },
   {
     title: 'Cronograma',
     path: '/cronograma',
-    icon: <IoIm.ImParagraphLeft />,
+    icon: <ImIcons.ImParagraphLeft />,
     cName: 'nav-text'
   },
   {
     title: 'Configurações',
-    path: '/configuracoes',
-    icon: <Iogr.GrConfigure />,
+    path: '/configuracao',
+    icon: <FaIcons.FaTools/>,
     cName: 'nav-text'
   },
   {
     title: 'Comunicado',
     path: '/comunicado',
-    icon: <IoDocs.HiOutlineMail />,
+    icon: <HiIcons.HiOutlineMail />,
     cName: 'nav-text'
   }
 ];
